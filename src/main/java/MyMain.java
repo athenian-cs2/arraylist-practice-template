@@ -1,30 +1,27 @@
+import java.util.ArrayList;
+
 public class MyMain {
 
-    // Calculate the probability of rolling at least one 6 when rolling 
-    // six dice. Uses 10000 trials.
-    // Returns in the answer as a double corresponding to the percentage
-    // For example, 75.5% would be 75.5
-    public static double probabilityOneSix() {
-        // REPLACE WITH YOUR CODE HERE
-        return -1.0;
+    // Counts the number of odd numbers in list
+    public static int countOdd(ArrayList<Integer> list) { 
+        // REPLACE WITH YOUR CODE
+        return 0;
     }
 
-    // Calculate the probability of rolling at least two 6's when rolling 
-    // twelve dice. Uses 10000 trials.
-    public static double probabilityTwoSixes() {
-        // REPLACE WITH YOUR CODE HERE
-        return -1.0;
+    // Returns true if there is an int that appears in both lists
+    public static boolean checkDuplicates(ArrayList<Integer> list1, ArrayList<Integer> list2) { 
+        // REPLACE WITH YOUR CODE
+        return false;
     }
 
-    // Calculate the probability of rolling at least three 6's when rolling 
-    // eighteen dice. Uses 10000 trials.
-    public static double probabilityThreeSixes() {
-        // REPLACE WITH YOUR CODE HERE
-        return -1.0;
+    // Takes an int[] as input and returns the equivalent ArrayList<Integer>
+    public static ArrayList<Integer> convertToArrayList(int[] arr) { 
+        // REPLACE WITH YOUR CODE
+        return null;
     }
 
 
     public static void main(String[] args) {
-        // YOUR CODE HERE
+        // Write some code here to test your methods!
     }
 }
